@@ -2,7 +2,7 @@ migration:
   options:
     install_command: odoo
   versions:
-    - version: 2018.06.30
+    - version: 2020.06.30
       operations:
         pre:
           - "sh -c 'psql -c \"CREATE EXTENSION pg_trgm;\"'"
