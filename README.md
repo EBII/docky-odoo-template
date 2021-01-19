@@ -12,6 +12,12 @@ Create a .env
 $ cd odoo_project
 odoo_project $ docky init
 ```
+add somme informations for share in .env before continue like 
+	COMPOSE_PROJECT_NAME=odoo14
+	PGHOST=db
+	PGDATABASE=db
+	PGUSER=odoo
+	DB_USER=odoo
 
 The .env is a docker-compose file where you can put environment variables.
 
